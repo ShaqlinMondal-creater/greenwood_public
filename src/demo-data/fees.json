@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": [
+    { "id": 8001, "fee_name": "Tuition Fee April", "student_name": "Aarav Mehta", "roll_no": "2505101", "class_name": "5th A", "amount": 7000, "paid_amount": 7000, "status": "paid", "due_date": "2025-04-10", "ay_id": 7 },
+    { "id": 8002, "fee_name": "Tuition Fee May", "student_name": "Diya Sharma", "roll_no": "2505102", "class_name": "5th A", "amount": 7000, "paid_amount": 3500, "status": "partial", "due_date": "2025-05-10", "ay_id": 7 },
+    { "id": 8003, "fee_name": "Transport Fee", "student_name": "Kabir Khan", "roll_no": "2505201", "class_name": "5th B", "amount": 1500, "paid_amount": 0, "status": "pending", "due_date": "2025-06-10", "ay_id": 7 },
+    { "id": 8004, "fee_name": "Computer Fee", "student_name": "Ananya Iyer", "roll_no": "2506101", "class_name": "6th A", "amount": 1200, "paid_amount": 1200, "status": "paid", "due_date": "2025-07-10", "ay_id": 7 },
+    { "id": 8005, "fee_name": "Lab Fee", "student_name": "Reyansh Gupta", "roll_no": "2508101", "class_name": "8th A", "amount": 1800, "paid_amount": 0, "status": "pending", "due_date": "2025-08-10", "ay_id": 7 },
+    { "id": 8006, "fee_name": "Examination Fee", "student_name": "Ishaan Verma", "roll_no": "2510101", "class_name": "10th A", "amount": 2500, "paid_amount": 2500, "status": "paid", "due_date": "2025-09-10", "ay_id": 7 },
+    { "id": 8007, "fee_name": "Tuition Fee June", "student_name": "Kiara Desai", "roll_no": "2511101", "class_name": "11th Science", "amount": 9000, "paid_amount": 9000, "status": "paid", "due_date": "2025-06-10", "ay_id": 7 },
+    { "id": 8008, "fee_name": "Admission Fee", "student_name": "Aadhya Sen", "roll_no": "2500101", "class_name": "Nursery A", "amount": 15000, "paid_amount": 15000, "status": "paid", "due_date": "2025-03-20", "ay_id": 7 }
+  ],
+  "payment_attempts": [
+    { "id": 9101, "order_id": "ORD-DEMO-9101", "student_name": "Aarav Mehta", "amount": 7000, "status": "success", "mode": "PG", "created_at": "2025-11-03 09:18:22" },
+    { "id": 9102, "order_id": "ORD-DEMO-9102", "student_name": "Diya Sharma", "amount": 3500, "status": "failed", "mode": "PG", "created_at": "2025-11-04 11:20:45" },
+    { "id": 9103, "order_id": "ORD-DEMO-9103", "student_name": "Kabir Khan", "amount": 1500, "status": "pending", "mode": "PG", "created_at": "2025-11-05 14:02:11" },
+    { "id": 9104, "order_id": "ORD-DEMO-9104", "student_name": "Ananya Iyer", "amount": 1200, "status": "success", "mode": "PG", "created_at": "2025-11-06 10:44:08" }
+  ],
+  "transactions": [
+    { "id": 9201, "txn_id": "TXN-DEMO-9201", "student_name": "Aarav Mehta", "amount": 7000, "mode": "CC Avenue", "status": "success", "paid_at": "2025-11-03 09:18:22" },
+    { "id": 9202, "txn_id": "TXN-DEMO-9202", "student_name": "Sara Ali", "amount": 8500, "mode": "Cash", "status": "success", "paid_at": "2025-11-05 12:10:00" },
+    { "id": 9203, "txn_id": "TXN-DEMO-9203", "student_name": "Vihaan Patel", "amount": 4200, "mode": "NEFT", "status": "success", "paid_at": "2025-11-07 16:22:40" },
+    { "id": 9204, "txn_id": "TXN-DEMO-9204", "student_name": "Myra Joshi", "amount": 5600, "mode": "CC Avenue", "status": "success", "paid_at": "2025-11-08 08:55:20" }
+  ],
+  "modes": [
+    { "id": "cash", "label": "Cash" },
+    { "id": "neft", "label": "NEFT" },
+    { "id": "draft", "label": "Demand Draft" },
+    { "id": "pg", "label": "Payment Gateway" },
+    { "id": "wallet", "label": "Wallet" }
+  ],
+  "total": 8
+}

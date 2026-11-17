@@ -1,0 +1,64 @@
+{
+  "students": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "data": {
+      "student_count": 1284,
+      "teacher_count": 86,
+      "male_student_count": 610,
+      "female_student_count": 598,
+      "external_male_student": 32,
+      "external_female_student": 44,
+      "total_unpaid_fees": { "amount": 876500, "count": 214 },
+      "current_month_late_fees": { "amount": 42800, "count": 37 },
+      "current_month_pending_fees": { "amount": 156200, "count": 92 },
+      "boys": 642,
+      "girls": 642,
+      "class_wise": [
+        { "class_name": "Nursery", "count": 48 },
+        { "class_name": "LKG", "count": 56 },
+        { "class_name": "UKG", "count": 62 },
+        { "class_name": "1st", "count": 98 },
+        { "class_name": "5th", "count": 112 },
+        { "class_name": "8th", "count": 104 },
+        { "class_name": "9th", "count": 96 },
+        { "class_name": "11th", "count": 88 }
+      ]
+    }
+  },
+  "transactions": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "data": {
+      "total_collection": 4856200,
+      "pg_collection": 3921400,
+      "cash_collection": 412800,
+      "other_collection": 522000,
+      "pending_fees": 876500,
+      "dates": ["03-Nov", "04-Nov", "05-Nov", "06-Nov", "07-Nov", "08-Nov", "09-Nov", "10-Nov"],
+      "sums": [119200, 79800, 137200, 61800, 89400, 108700, 45200, 58600],
+      "monthly": [
+        { "month": "Apr", "amount": 620000 },
+        { "month": "May", "amount": 540000 },
+        { "month": "Jun", "amount": 480000 },
+        { "month": "Jul", "amount": 710000 },
+        { "month": "Aug", "amount": 690000 },
+        { "month": "Sep", "amount": 650000 },
+        { "month": "Oct", "amount": 580000 },
+        { "month": "Nov", "amount": 586200 }
+      ]
+    }
+  },
+  "fees": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "data": {
+      "fee_total": 4856200,
+      "paid": 3979700,
+      "pending": 876500
+    }
+  }
+}

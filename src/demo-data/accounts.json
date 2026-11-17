@@ -1,0 +1,22 @@
+{
+  "cash_received": [
+    { "id": 301, "date": "2025-11-03", "particulars": "Tuition cash collection", "amount": 24500, "mode": "Cash", "received_from": "Counter" },
+    { "id": 302, "date": "2025-11-05", "particulars": "Transport cash", "amount": 8200, "mode": "Cash", "received_from": "Counter" },
+    { "id": 303, "date": "2025-11-08", "particulars": "Misc receipts", "amount": 3500, "mode": "Cash", "received_from": "Office" }
+  ],
+  "debit": [
+    { "id": 401, "voucher_no": "DV-DEMO-401", "date": "2025-11-02", "particulars": "Stationery purchase", "amount": 12500, "paid_to": "Paper Mart" },
+    { "id": 402, "voucher_no": "DV-DEMO-402", "date": "2025-11-06", "particulars": "Lab chemicals", "amount": 8900, "paid_to": "Science Supplies Co" },
+    { "id": 403, "voucher_no": "DV-DEMO-403", "date": "2025-11-09", "particulars": "Electricity bill", "amount": 18200, "paid_to": "State Power Board" }
+  ],
+  "credit": [
+    { "id": 501, "voucher_no": "CV-DEMO-501", "date": "2025-11-01", "particulars": "Donation received", "amount": 50000, "received_from": "Alumni Fund" },
+    { "id": 502, "voucher_no": "CV-DEMO-502", "date": "2025-11-04", "particulars": "Grant installment", "amount": 75000, "received_from": "Trust Office" }
+  ],
+  "bank": [
+    { "id": 601, "date": "2025-11-04", "particulars": "CC Avenue settlement", "debit": 0, "credit": 98600, "balance": 486200, "utr": "DEMOUTR110403A1" },
+    { "id": 602, "date": "2025-11-05", "particulars": "CC Avenue settlement", "debit": 0, "credit": 78700, "balance": 564900, "utr": "DEMOUTR110504B2" },
+    { "id": 603, "date": "2025-11-07", "particulars": "Vendor NEFT", "debit": 12500, "credit": 0, "balance": 552400, "utr": "DEMOUTR1107PAY1" },
+    { "id": 604, "date": "2025-11-10", "particulars": "CC Avenue settlement", "debit": 0, "credit": 117200, "balance": 669600, "utr": "DEMOUTR111008G7" }
+  ]
+}

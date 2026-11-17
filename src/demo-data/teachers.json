@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": [
+    { "id": 501, "name": "Anita Deshmukh", "email": "anita.d@example.school", "mobile": "9800010001", "gender": "F", "subject": "English", "designation": "HOD", "status": 1 },
+    { "id": 502, "name": "Ravi Menon", "email": "ravi.m@example.school", "mobile": "9800010002", "gender": "M", "subject": "Mathematics", "designation": "Teacher", "status": 1 },
+    { "id": 503, "name": "Fatima Qureshi", "email": "fatima.q@example.school", "mobile": "9800010003", "gender": "F", "subject": "Science", "designation": "Teacher", "status": 1 },
+    { "id": 504, "name": "Suresh Iyer", "email": "suresh.i@example.school", "mobile": "9800010004", "gender": "M", "subject": "History", "designation": "Teacher", "status": 1 },
+    { "id": 505, "name": "Priya Nair", "email": "priya.n@example.school", "mobile": "9800010005", "gender": "F", "subject": "Computer", "designation": "Teacher", "status": 1 },
+    { "id": 506, "name": "Imran Sheikh", "email": "imran.s@example.school", "mobile": "9800010006", "gender": "M", "subject": "Physical Education", "designation": "Coach", "status": 1 },
+    { "id": 507, "name": "Meera Joshi", "email": "meera.j@example.school", "mobile": "9800010007", "gender": "F", "subject": "Arts", "designation": "Teacher", "status": 1 },
+    { "id": 508, "name": "Karan Malhotra", "email": "karan.m@example.school", "mobile": "9800010008", "gender": "M", "subject": "Commerce", "designation": "Teacher", "status": 1 }
+  ],
+  "total": 8
+}

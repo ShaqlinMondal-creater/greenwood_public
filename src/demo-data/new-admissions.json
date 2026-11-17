@@ -1,0 +1,83 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": [
+    {
+      "id": 7001,
+      "application_no": "APP-DEMO-7001",
+      "child_name": "Riya Kapoor",
+      "class_applied": "Nursery",
+      "gender": "F",
+      "dob": "2021-06-12",
+      "father_name": "Amit Kapoor",
+      "mother_name": "Sneha Kapoor",
+      "mobile": "9811100001",
+      "interview_status": "pending",
+      "written_test_status": "pending",
+      "payment_status": "paid",
+      "ay_id": 7
+    },
+    {
+      "id": 7002,
+      "application_no": "APP-DEMO-7002",
+      "child_name": "Arnav Shah",
+      "class_applied": "LKG",
+      "gender": "M",
+      "dob": "2020-11-03",
+      "father_name": "Nirav Shah",
+      "mother_name": "Komal Shah",
+      "mobile": "9811100002",
+      "interview_status": "selected",
+      "written_test_status": "passed",
+      "payment_status": "paid",
+      "ay_id": 7
+    },
+    {
+      "id": 7003,
+      "application_no": "APP-DEMO-7003",
+      "child_name": "Hana Merchant",
+      "class_applied": "UKG",
+      "gender": "F",
+      "dob": "2020-02-18",
+      "father_name": "Zain Merchant",
+      "mother_name": "Alia Merchant",
+      "mobile": "9811100003",
+      "interview_status": "scheduled",
+      "written_test_status": "pending",
+      "payment_status": "pending",
+      "ay_id": 7
+    },
+    {
+      "id": 7004,
+      "application_no": "APP-DEMO-7004",
+      "child_name": "Vivaan Rao",
+      "class_applied": "1st",
+      "gender": "M",
+      "dob": "2019-09-25",
+      "father_name": "Kiran Rao",
+      "mother_name": "Divya Rao",
+      "mobile": "9811100004",
+      "interview_status": "selected",
+      "written_test_status": "passed",
+      "payment_status": "paid",
+      "ay_id": 7
+    },
+    {
+      "id": 7005,
+      "application_no": "APP-DEMO-7005",
+      "child_name": "Anvi Reddy",
+      "class_applied": "Nursery",
+      "gender": "F",
+      "dob": "2021-12-01",
+      "father_name": "Sanjay Reddy",
+      "mother_name": "Lakshmi Reddy",
+      "mobile": "9811100005",
+      "interview_status": "rejected",
+      "written_test_status": "failed",
+      "payment_status": "paid",
+      "ay_id": 7
+    }
+  ],
+  "total": 5
+}

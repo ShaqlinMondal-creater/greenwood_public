@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": [
+    { "id": 1, "name": "Demo Administrator", "username": "demo_admin", "email": "demo.admin@example.school", "role": "admin", "access_to": "all", "status": 1 },
+    { "id": 2, "name": "Fees Officer", "username": "fees_desk", "email": "fees@example.school", "role": "admin", "access_to": "fees,students", "status": 1 },
+    { "id": 3, "name": "Office Clerk", "username": "office1", "email": "office@example.school", "role": "admin", "access_to": "students,admissions", "status": 1 },
+    { "id": 4, "name": "Accounts User", "username": "accounts1", "email": "accounts@example.school", "role": "admin", "access_to": "accounts,fees", "status": 1 }
+  ],
+  "modules": [
+    { "id": "students", "name": "Students" },
+    { "id": "admissions", "name": "Admissions" },
+    { "id": "fees", "name": "Fees" },
+    { "id": "report", "name": "Report Card" },
+    { "id": "teachers", "name": "Teachers" },
+    { "id": "accounts", "name": "Accounts" },
+    { "id": "academics", "name": "Academic Year" },
+    { "id": "users", "name": "Users" }
+  ],
+  "total": 4
+}

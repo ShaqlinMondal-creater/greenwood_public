@@ -1,0 +1,147 @@
+{
+  "houses": [
+    { "id": 1, "name": "Ruby" },
+    { "id": 2, "name": "Emerald" },
+    { "id": 3, "name": "Sapphire" },
+    { "id": 4, "name": "Topaz" }
+  ],
+  "blood_groups": [
+    { "id": 1, "name": "A+" },
+    { "id": 2, "name": "A-" },
+    { "id": 3, "name": "B+" },
+    { "id": 4, "name": "B-" },
+    { "id": 5, "name": "O+" },
+    { "id": 6, "name": "O-" },
+    { "id": 7, "name": "AB+" },
+    { "id": 8, "name": "AB-" }
+  ],
+  "fee_plans": [
+    { "id": 201, "name": "Nursery Monthly Plan", "type": "monthly", "ay_id": 7, "amount": 4500 },
+    { "id": 202, "name": "Primary Monthly Plan", "type": "monthly", "ay_id": 7, "amount": 6500 },
+    { "id": 203, "name": "Secondary Monthly Plan", "type": "monthly", "ay_id": 7, "amount": 8000 },
+    { "id": 204, "name": "Admission Fee Plan", "type": "admission", "ay_id": 7, "amount": 15000 },
+    { "id": 205, "name": "Transport Plan", "type": "recurring", "ay_id": 7, "amount": 1500 }
+  ],
+  "subjects": [
+    { "id": 1, "name": "English", "code": "ENG" },
+    { "id": 2, "name": "Mathematics", "code": "MATH" },
+    { "id": 3, "name": "Science", "code": "SCI" },
+    { "id": 4, "name": "Social Studies", "code": "SST" },
+    { "id": 5, "name": "Hindi", "code": "HIN" },
+    { "id": 6, "name": "Computer", "code": "COMP" }
+  ],
+  "terms": [
+    { "id": 1, "term_name": "Term 1", "ay_id": 7 },
+    { "id": 2, "term_name": "Term 2", "ay_id": 7 },
+    { "id": 3, "term_name": "Final", "ay_id": 7 }
+  ],
+  "remarks": [
+    { "id": 1, "remark": "Excellent progress this term." },
+    { "id": 2, "remark": "Good participation in class activities." },
+    { "id": 3, "remark": "Needs improvement in homework regularity." },
+    { "id": 4, "remark": "Shows leadership qualities." }
+  ],
+  "action_logs": [
+    { "id": 1, "action": "Student updated", "user": "Demo Administrator", "module": "Students", "created_at": "2025-11-08 10:12:01" },
+    { "id": 2, "action": "Fee payment recorded", "user": "Fees Officer", "module": "Fees", "created_at": "2025-11-08 11:40:22" },
+    { "id": 3, "action": "Class changed", "user": "Demo Administrator", "module": "Students", "created_at": "2025-11-09 09:05:44" },
+    { "id": 4, "action": "Payout CSV imported", "user": "Demo Administrator", "module": "Bank Payouts", "created_at": "2025-11-10 14:18:09" }
+  ],
+  "pg_logs": [
+    { "id": 1, "order_id": "ORD-DEMO-90011", "amount": 8500, "status": "success", "gateway": "CC Avenue", "created_at": "2025-11-03 09:18:22" },
+    { "id": 2, "order_id": "ORD-DEMO-90021", "amount": 7800, "status": "success", "gateway": "CC Avenue", "created_at": "2025-11-04 09:55:10" },
+    { "id": 3, "order_id": "ORD-DEMO-90033", "amount": 4800, "status": "failed", "gateway": "CC Avenue", "created_at": "2025-11-05 12:15:01" }
+  ],
+  "credit_reports": [
+    { "date": "2025-11-03", "pg_amount": 98600, "cash_amount": 12400, "neft_amount": 8200, "total": 119200 },
+    { "date": "2025-11-04", "pg_amount": 74200, "cash_amount": 5600, "neft_amount": 0, "total": 79800 },
+    { "date": "2025-11-05", "pg_amount": 112400, "cash_amount": 9800, "neft_amount": 15000, "total": 137200 }
+  ],
+  "certificates": [
+    { "id": 1, "student_name": "Ishaan Verma", "roll_no": "2510101", "class_name": "10th A", "type": "Transfer", "issue_date": "2025-10-12" },
+    { "id": 2, "student_name": "Kiara Desai", "roll_no": "2511101", "class_name": "11th Science", "type": "Character", "issue_date": "2025-10-20" },
+    { "id": 3, "student_name": "Ananya Iyer", "roll_no": "2506101", "class_name": "6th A", "type": "Transfer", "issue_date": "2025-11-01" }
+  ],
+  "procurement_products": [
+    { "id": 1, "name": "A4 Paper Ream", "category": "Stationery", "unit": "Box", "stock": 40, "price": 320 },
+    { "id": 2, "name": "Whiteboard Marker", "category": "Stationery", "unit": "Pack", "stock": 120, "price": 85 },
+    { "id": 3, "name": "Lab Beaker Set", "category": "Science", "unit": "Set", "stock": 18, "price": 1450 }
+  ],
+  "procurement_suppliers": [
+    { "id": 1, "name": "Paper Mart", "city": "Mumbai", "mobile": "9822001001", "email": "sales@papermart.demo" },
+    { "id": 2, "name": "Science Supplies Co", "city": "Pune", "mobile": "9822001002", "email": "hello@sciencesupplies.demo" }
+  ],
+  "purchase_invoices": [
+    { "id": 1, "invoice_no": "PI-DEMO-1001", "supplier": "Paper Mart", "date": "2025-11-02", "amount": 12500, "status": "posted" },
+    { "id": 2, "invoice_no": "PI-DEMO-1002", "supplier": "Science Supplies Co", "date": "2025-11-06", "amount": 8900, "status": "posted" }
+  ],
+  "scholarship": [
+    {
+      "id": 1,
+      "student_full_name": "Diya Sharma",
+      "class_roll_no_section": "5th A / 2505102",
+      "mobile": "9876501102",
+      "student_email": "diya.parent@demo.school",
+      "admission_reg_no": "ADM-2505102",
+      "is_orphan": "No",
+      "is_disabled": "No",
+      "application_status": "Pending",
+      "timestamp": "2025-10-12 11:20:00",
+      "legal_guardian_name": "Rakesh Sharma",
+      "amount_requested": 5000
+    },
+    {
+      "id": 2,
+      "student_full_name": "Vihaan Patel",
+      "class_roll_no_section": "6th A / 2506102",
+      "mobile": "9876501202",
+      "student_email": "vihaan.parent@demo.school",
+      "admission_reg_no": "ADM-2506102",
+      "is_orphan": "No",
+      "is_disabled": "No",
+      "application_status": "Completed",
+      "timestamp": "2025-10-18 09:45:00",
+      "legal_guardian_name": "Mehul Patel",
+      "amount_requested": 7500
+    },
+    {
+      "id": 3,
+      "student_full_name": "Sara Ali",
+      "class_roll_no_section": "8th B / 2508201",
+      "mobile": "9876501301",
+      "student_email": "sara.parent@demo.school",
+      "admission_reg_no": "ADM-2508201",
+      "is_orphan": "Yes",
+      "is_disabled": "No",
+      "application_status": "Pending",
+      "timestamp": "2025-11-01 16:05:00",
+      "legal_guardian_name": "Farida Ali",
+      "amount_requested": 10000
+    },
+    {
+      "id": 4,
+      "student_full_name": "Kabir Khan",
+      "class_roll_no_section": "5th B / 2505201",
+      "mobile": "9876501401",
+      "student_email": "kabir.parent@demo.school",
+      "admission_reg_no": "ADM-2505201",
+      "is_orphan": "No",
+      "is_disabled": "Yes",
+      "application_status": "Rejected",
+      "timestamp": "2025-11-05 10:12:00",
+      "legal_guardian_name": "Imran Khan",
+      "amount_requested": 6000
+    }
+  ],
+  "fee_plan_periods": [
+    { "id": 1, "fee_plan_id": 202, "month": "April", "amount": 6500, "ay_id": 7 },
+    { "id": 2, "fee_plan_id": 202, "month": "May", "amount": 6500, "ay_id": 7 },
+    { "id": 3, "fee_plan_id": 202, "month": "June", "amount": 6500, "ay_id": 7 },
+    { "id": 4, "fee_plan_id": 203, "month": "April", "amount": 8000, "ay_id": 7 },
+    { "id": 5, "fee_plan_id": 203, "month": "May", "amount": 8000, "ay_id": 7 }
+  ],
+  "concession_students": [
+    { "id": 1, "student_name": "Myra Joshi", "roll_no": "2507101", "class_name": "7th A", "concession_amount": 2500, "reason": "Sibling concession" },
+    { "id": 2, "student_name": "Pari Nair", "roll_no": "2501101", "class_name": "1st A", "concession_amount": 4000, "reason": "Staff ward" }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "summary": {
+    "days": 6,
+    "matched_days": 4,
+    "school_credit": 623400,
+    "school_amount": 545100,
+    "cc_amount": 545100,
+    "other_amount": 202900,
+    "other_modes": [
+      { "mode": "cash", "label": "Cash", "count": 18, "amount": 86400 },
+      { "mode": "neft", "label": "NEFT / RTGS", "count": 7, "amount": 92500 },
+      { "mode": "draft", "label": "Demand Draft", "count": 2, "amount": 24000 }
+    ]
+  },
+  "data": [
+    {
+      "payment_date": "2025-11-03",
+      "school_count": 14,
+      "school_amount": 98600,
+      "cc_count": 14,
+      "cc_amount": 98600,
+      "difference": 0,
+      "date_gaps": [],
+      "result": "matched",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1104A",
+          "settlement_date": "2025-11-04",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110403A1",
+          "this_day_amount": 98600,
+          "bank_amount": 98600,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    {
+      "payment_date": "2025-11-04",
+      "school_count": 11,
+      "school_amount": 74200,
+      "cc_count": 12,
+      "cc_amount": 78700,
+      "difference": -4500,
+      "date_gaps": [
+        {
+          "direction": "from",
+          "other_date": "2025-11-05",
+          "amount": 4500
+        }
+      ],
+      "result": "check",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1105A",
+          "settlement_date": "2025-11-05",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110504B2",
+          "this_day_amount": 74200,
+          "bank_amount": 78700,
+          "included_from": [
+            { "payment_date": "2025-11-05", "amount": 4500 }
+          ]
+        }
+      ],
+      "payout_dues": []
+    },
+    {
+      "payment_date": "2025-11-05",
+      "school_count": 16,
+      "school_amount": 112400,
+      "cc_count": 15,
+      "cc_amount": 107900,
+      "difference": 4500,
+      "date_gaps": [
+        {
+          "direction": "to",
+          "other_date": "2025-11-04",
+          "amount": 4500
+        }
+      ],
+      "result": "check",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1106A",
+          "settlement_date": "2025-11-06",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110605C3",
+          "this_day_amount": 102400,
+          "bank_amount": 102400,
+          "included_from": []
+        }
+      ],
+      "payout_dues": [
+        {
+          "pay_id": "PAY-DEMO-1108D",
+          "settlement_date": "2025-11-08",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110805D4",
+          "this_day_amount": 5500,
+          "bank_amount": 5500,
+          "included_from": []
+        }
+      ]
+    },
+    {
+      "payment_date": "2025-11-06",
+      "school_count": 9,
+      "school_amount": 61800,
+      "cc_count": 9,
+      "cc_amount": 61800,
+      "difference": 0,
+      "date_gaps": [],
+      "result": "matched",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1107A",
+          "settlement_date": "2025-11-07",
+          "settlement_mode": "IMPS",
+          "utr_no": "DEMOUTR110706E5",
+          "this_day_amount": 61800,
+          "bank_amount": 61800,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    {
+      "payment_date": "2025-11-07",
+      "school_count": 13,
+      "school_amount": 89400,
+      "cc_count": 14,
+      "cc_amount": 80900,
+      "difference": 0,
+      "date_gaps": [],
+      "result": "matched",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1108A",
+          "settlement_date": "2025-11-08",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110807F6",
+          "this_day_amount": 89400,
+          "bank_amount": 89400,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    {
+      "payment_date": "2025-11-08",
+      "school_count": 12,
+      "school_amount": 108700,
+      "cc_count": 13,
+      "cc_amount": 117200,
+      "difference": -8500,
+      "date_gaps": [],
+      "result": "matched",
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1110A",
+          "settlement_date": "2025-11-10",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR111008G7",
+          "this_day_amount": 117200,
+          "bank_amount": 117200,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    }
+  ]
+}

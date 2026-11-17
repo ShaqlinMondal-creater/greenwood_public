@@ -1,0 +1,613 @@
+{
+  "2025-11-03": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 14,
+      "school_amount": 98600,
+      "cc_count": 14,
+      "cc_amount": 98600,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1104A",
+          "settlement_date": "2025-11-04",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110403A1",
+          "this_day_amount": 98600,
+          "bank_amount": 98600,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90011",
+        "payer_name": "Kabir Sharma",
+        "roll_no": "2501101",
+        "application_no": null,
+        "class_name": "5th A",
+        "class_order": 5,
+        "paid_at": "2025-11-03 09:18:22",
+        "cc_amount": 8500,
+        "school_amount": 8500,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 7000, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 1500, "sort": 2 }
+        ],
+        "settlement_date": "2025-11-04",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110403A1"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90012",
+        "payer_name": "Myra Joshi",
+        "roll_no": "2502214",
+        "application_no": null,
+        "class_name": "2nd B",
+        "class_order": 2,
+        "paid_at": "2025-11-03 10:42:11",
+        "cc_amount": 6200,
+        "school_amount": 6200,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 5500, "sort": 1 },
+          { "key": "computer", "label": "Computer Fee", "amount": 700, "sort": 3 }
+        ],
+        "settlement_date": "2025-11-04",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110403A1"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90013",
+        "payer_name": "Reyansh Gupta",
+        "roll_no": "2508307",
+        "application_no": null,
+        "class_name": "8th C",
+        "class_order": 8,
+        "paid_at": "2025-11-03 11:05:44",
+        "cc_amount": 9800,
+        "school_amount": 9800,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 8000, "sort": 1 },
+          { "key": "lab", "label": "Lab Fee", "amount": 1800, "sort": 4 }
+        ],
+        "settlement_date": "2025-11-04",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110403A1"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90014",
+        "payer_name": "Ishaan Verma",
+        "roll_no": "2511412",
+        "application_no": null,
+        "class_name": "11th Science",
+        "class_order": 11,
+        "paid_at": "2025-11-03 14:22:09",
+        "cc_amount": 12500,
+        "school_amount": 12500,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 10000, "sort": 1 },
+          { "key": "exam", "label": "Examination Fee", "amount": 2500, "sort": 5 }
+        ],
+        "settlement_date": "2025-11-04",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110403A1"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90015",
+        "payer_name": "Diya Nair",
+        "roll_no": "2504108",
+        "application_no": null,
+        "class_name": "4th A",
+        "class_order": 4,
+        "paid_at": "2025-11-03 16:01:33",
+        "cc_amount": 7400,
+        "school_amount": 7400,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 6000, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 1400, "sort": 2 }
+        ],
+        "settlement_date": "2025-11-04",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110403A1"
+      }
+    ]
+  },
+  "2025-11-04": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 11,
+      "school_amount": 74200,
+      "cc_count": 12,
+      "cc_amount": 78700,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1105A",
+          "settlement_date": "2025-11-05",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110504B2",
+          "this_day_amount": 74200,
+          "bank_amount": 78700,
+          "included_from": [
+            { "payment_date": "2025-11-05", "amount": 4500 }
+          ]
+        }
+      ],
+      "payout_dues": []
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90021",
+        "payer_name": "Advait Rao",
+        "roll_no": "2506201",
+        "application_no": null,
+        "class_name": "6th A",
+        "class_order": 6,
+        "paid_at": "2025-11-04 09:55:10",
+        "cc_amount": 7800,
+        "school_amount": 7800,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 6500, "sort": 1 },
+          { "key": "computer", "label": "Computer Fee", "amount": 1300, "sort": 3 }
+        ],
+        "settlement_date": "2025-11-05",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110504B2"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90022",
+        "payer_name": "Kiara Desai",
+        "roll_no": "2503119",
+        "application_no": null,
+        "class_name": "3rd B",
+        "class_order": 3,
+        "paid_at": "2025-11-04 11:20:45",
+        "cc_amount": 5600,
+        "school_amount": 5600,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 5000, "sort": 1 },
+          { "key": "late", "label": "Late Fee", "amount": 600, "sort": 6 }
+        ],
+        "settlement_date": "2025-11-05",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110504B2"
+      },
+      {
+        "status": "cc_other_date",
+        "order_id": "ORD-DEMO-90023",
+        "payer_name": "Arjun Malhotra",
+        "roll_no": "2509115",
+        "application_no": null,
+        "class_name": "9th A",
+        "class_order": 9,
+        "paid_at": "2025-11-05 08:12:00",
+        "cc_amount": 4500,
+        "school_amount": null,
+        "cc_payment_date": "2025-11-05",
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 4500, "sort": 1 }
+        ],
+        "settlement_date": "2025-11-05",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110504B2"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90024",
+        "payer_name": "Zara Sheikh",
+        "roll_no": "2507104",
+        "application_no": null,
+        "class_name": "7th B",
+        "class_order": 7,
+        "paid_at": "2025-11-04 15:40:18",
+        "cc_amount": 9200,
+        "school_amount": 9200,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 7500, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 1700, "sort": 2 }
+        ],
+        "settlement_date": "2025-11-05",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110504B2"
+      }
+    ]
+  },
+  "2025-11-05": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 16,
+      "school_amount": 112400,
+      "cc_count": 15,
+      "cc_amount": 107900,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1106A",
+          "settlement_date": "2025-11-06",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110605C3",
+          "this_day_amount": 102400,
+          "bank_amount": 102400,
+          "included_from": []
+        }
+      ],
+      "payout_dues": [
+        {
+          "pay_id": "PAY-DEMO-1108D",
+          "settlement_date": "2025-11-08",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110805D4",
+          "this_day_amount": 5500,
+          "bank_amount": 5500,
+          "included_from": []
+        }
+      ]
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90031",
+        "payer_name": "Omkar Kulkarni",
+        "roll_no": "2505206",
+        "application_no": null,
+        "class_name": "5th B",
+        "class_order": 5,
+        "paid_at": "2025-11-05 09:08:55",
+        "cc_amount": 8100,
+        "school_amount": 8100,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 7000, "sort": 1 },
+          { "key": "computer", "label": "Computer Fee", "amount": 1100, "sort": 3 }
+        ],
+        "settlement_date": "2025-11-06",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110605C3"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90032",
+        "payer_name": "Anvi Reddy",
+        "roll_no": "2510322",
+        "application_no": null,
+        "class_name": "10th A",
+        "class_order": 10,
+        "paid_at": "2025-11-05 10:33:27",
+        "cc_amount": 11200,
+        "school_amount": 11200,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 9000, "sort": 1 },
+          { "key": "exam", "label": "Examination Fee", "amount": 2200, "sort": 5 }
+        ],
+        "settlement_date": "2025-11-06",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110605C3"
+      },
+      {
+        "status": "amount_mismatch",
+        "order_id": "ORD-DEMO-90033",
+        "payer_name": "Rohan Pillai",
+        "roll_no": "2501403",
+        "application_no": null,
+        "class_name": "1st A",
+        "class_order": 1,
+        "paid_at": "2025-11-05 12:15:01",
+        "cc_amount": 4800,
+        "school_amount": 5000,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 5000, "sort": 1 }
+        ],
+        "settlement_date": "2025-11-06",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110605C3"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90034",
+        "payer_name": "Meher Banerjee",
+        "roll_no": "2508120",
+        "application_no": null,
+        "class_name": "8th A",
+        "class_order": 8,
+        "paid_at": "2025-11-05 13:48:40",
+        "cc_amount": 5500,
+        "school_amount": 5500,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 5500, "sort": 1 }
+        ],
+        "settlement_date": "2025-11-08",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110805D4"
+      },
+      {
+        "status": "missing_in_payout",
+        "order_id": "ORD-DEMO-90035",
+        "payer_name": "Kabir Bose",
+        "roll_no": null,
+        "application_no": "APP-DEMO-4412",
+        "class_name": "Nursery",
+        "class_order": 0,
+        "paid_at": "2025-11-05 17:02:19",
+        "cc_amount": null,
+        "school_amount": 6500,
+        "fees": [
+          { "key": "admission", "label": "Admission Fee", "amount": 6500, "sort": 0 }
+        ],
+        "settlement_date": null,
+        "settlement_mode": null,
+        "utr_no": null
+      }
+    ]
+  },
+  "2025-11-06": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 9,
+      "school_amount": 61800,
+      "cc_count": 9,
+      "cc_amount": 61800,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1107A",
+          "settlement_date": "2025-11-07",
+          "settlement_mode": "IMPS",
+          "utr_no": "DEMOUTR110706E5",
+          "this_day_amount": 61800,
+          "bank_amount": 61800,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90041",
+        "payer_name": "Neil Fernandes",
+        "roll_no": "2502308",
+        "application_no": null,
+        "class_name": "2nd A",
+        "class_order": 2,
+        "paid_at": "2025-11-06 09:12:33",
+        "cc_amount": 5400,
+        "school_amount": 5400,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 4500, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 900, "sort": 2 }
+        ],
+        "settlement_date": "2025-11-07",
+        "settlement_mode": "IMPS",
+        "utr_no": "DEMOUTR110706E5"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90042",
+        "payer_name": "Saanvi Chatterjee",
+        "roll_no": "2506405",
+        "application_no": null,
+        "class_name": "6th B",
+        "class_order": 6,
+        "paid_at": "2025-11-06 11:44:08",
+        "cc_amount": 8700,
+        "school_amount": 8700,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 7000, "sort": 1 },
+          { "key": "lab", "label": "Lab Fee", "amount": 1700, "sort": 4 }
+        ],
+        "settlement_date": "2025-11-07",
+        "settlement_mode": "IMPS",
+        "utr_no": "DEMOUTR110706E5"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90043",
+        "payer_name": "Yash Thakur",
+        "roll_no": "2509210",
+        "application_no": null,
+        "class_name": "9th B",
+        "class_order": 9,
+        "paid_at": "2025-11-06 14:19:52",
+        "cc_amount": 10200,
+        "school_amount": 10200,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 8500, "sort": 1 },
+          { "key": "exam", "label": "Examination Fee", "amount": 1700, "sort": 5 }
+        ],
+        "settlement_date": "2025-11-07",
+        "settlement_mode": "IMPS",
+        "utr_no": "DEMOUTR110706E5"
+      }
+    ]
+  },
+  "2025-11-07": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 13,
+      "school_amount": 89400,
+      "cc_count": 14,
+      "cc_amount": 80900,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1108A",
+          "settlement_date": "2025-11-08",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR110807F6",
+          "this_day_amount": 89400,
+          "bank_amount": 89400,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90051",
+        "payer_name": "Ayaan Qureshi",
+        "roll_no": "2504301",
+        "application_no": null,
+        "class_name": "4th B",
+        "class_order": 4,
+        "paid_at": "2025-11-07 09:30:14",
+        "cc_amount": 6900,
+        "school_amount": 6900,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 5800, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 1100, "sort": 2 }
+        ],
+        "settlement_date": "2025-11-08",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110807F6"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90052",
+        "payer_name": "Pari Menon",
+        "roll_no": "2507509",
+        "application_no": null,
+        "class_name": "7th A",
+        "class_order": 7,
+        "paid_at": "2025-11-07 12:05:41",
+        "cc_amount": 9100,
+        "school_amount": 9100,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 7500, "sort": 1 },
+          { "key": "computer", "label": "Computer Fee", "amount": 1600, "sort": 3 }
+        ],
+        "settlement_date": "2025-11-08",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110807F6"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90053",
+        "payer_name": "Devansh Kapoor",
+        "roll_no": "2511207",
+        "application_no": null,
+        "class_name": "11th Commerce",
+        "class_order": 11,
+        "paid_at": "2025-11-07 15:22:06",
+        "cc_amount": -8500,
+        "school_amount": -8500,
+        "fees": [
+          { "key": "refund", "label": "Reversal / Refund", "amount": -8500, "sort": 99 }
+        ],
+        "settlement_date": "2025-11-08",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR110807F6"
+      }
+    ]
+  },
+  "2025-11-08": {
+    "code": 200,
+    "status": true,
+    "message": "OK",
+    "summary": {
+      "school_count": 12,
+      "school_amount": 108700,
+      "cc_count": 13,
+      "cc_amount": 117200,
+      "next_payouts": [
+        {
+          "pay_id": "PAY-DEMO-1110A",
+          "settlement_date": "2025-11-10",
+          "settlement_mode": "NEFT",
+          "utr_no": "DEMOUTR111008G7",
+          "this_day_amount": 117200,
+          "bank_amount": 117200,
+          "included_from": []
+        }
+      ],
+      "payout_dues": []
+    },
+    "data": [
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90061",
+        "payer_name": "Inaya Hassan",
+        "roll_no": "2501602",
+        "application_no": null,
+        "class_name": "1st B",
+        "class_order": 1,
+        "paid_at": "2025-11-08 08:55:20",
+        "cc_amount": 5200,
+        "school_amount": 5200,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 4500, "sort": 1 },
+          { "key": "late", "label": "Late Fee", "amount": 700, "sort": 6 }
+        ],
+        "settlement_date": "2025-11-10",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR111008G7"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90062",
+        "payer_name": "Vivaan Chopra",
+        "roll_no": "2508504",
+        "application_no": null,
+        "class_name": "8th B",
+        "class_order": 8,
+        "paid_at": "2025-11-08 10:18:47",
+        "cc_amount": 11800,
+        "school_amount": 11800,
+        "fees": [
+          { "key": "tuition", "label": "Tuition Fee", "amount": 9000, "sort": 1 },
+          { "key": "transport", "label": "Transport Fee", "amount": 1800, "sort": 2 },
+          { "key": "lab", "label": "Lab Fee", "amount": 1000, "sort": 4 }
+        ],
+        "settlement_date": "2025-11-10",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR111008G7"
+      },
+      {
+        "status": "matched",
+        "order_id": "ORD-DEMO-90063",
+        "payer_name": "Aadhya Sen",
+        "roll_no": null,
+        "application_no": "APP-DEMO-4488",
+        "class_name": "LKG",
+        "class_order": 0,
+        "paid_at": "2025-11-08 13:40:11",
+        "cc_amount": 15000,
+        "school_amount": 15000,
+        "fees": [
+          { "key": "wallet", "label": "Wallet Top-up (PG)", "amount": 15000, "sort": 10 }
+        ],
+        "settlement_date": "2025-11-10",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR111008G7"
+      },
+      {
+        "status": "missing_in_school",
+        "order_id": "ORD-DEMO-90064",
+        "payer_name": "Unknown CC Entry",
+        "roll_no": null,
+        "application_no": null,
+        "class_name": null,
+        "class_order": 999,
+        "paid_at": "2025-11-08 16:05:00",
+        "cc_amount": 8500,
+        "school_amount": null,
+        "fees": [],
+        "settlement_date": "2025-11-10",
+        "settlement_mode": "NEFT",
+        "utr_no": "DEMOUTR111008G7"
+      }
+    ]
+  }
+}

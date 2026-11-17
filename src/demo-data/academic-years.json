@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": [
+    { "ay_id": 7, "ay_name": "2025-26", "is_current": 1 },
+    { "ay_id": 6, "ay_name": "2024-25", "is_current": 0 },
+    { "ay_id": 5, "ay_name": "2023-24", "is_current": 0 }
+  ]
+}

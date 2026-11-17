@@ -1,0 +1,81 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "OK",
+  "data": {
+    "period": "01-11-2025 to 10-11-2025",
+    "lines": [
+      { "label": "Tuition Fee", "amount": 412500 },
+      { "label": "Transport Fee", "amount": 68400 },
+      { "label": "Computer Fee", "amount": 24600 },
+      { "label": "Lab Fee", "amount": 18200 },
+      { "label": "Examination Fee", "amount": 12500 },
+      { "label": "Late Fee", "amount": 2400 },
+      { "label": "Wallet Top-up (PG)", "amount": 15000 },
+      { "label": "Reversal / Refund", "amount": -8500 }
+    ],
+    "fee_total": 545100,
+    "payout_total": 545100,
+    "difference": 0,
+    "difference_label": "₹ 0",
+    "other_sources": {
+      "modes": [
+        { "mode": "cash", "label": "Cash", "count": 18, "amount": 86400 },
+        { "mode": "neft", "label": "NEFT / RTGS", "count": 7, "amount": 92500 },
+        { "mode": "draft", "label": "Demand Draft", "count": 2, "amount": 24000 }
+      ],
+      "lines": [
+        { "label": "Tuition Fee", "count": 16, "amount": 128000 },
+        { "label": "Transport Fee", "count": 6, "amount": 28800 },
+        { "label": "Admission Fee", "count": 3, "amount": 36000 },
+        { "label": "Misc / Other", "count": 2, "amount": 10100 }
+      ],
+      "count": 27,
+      "total": 202900,
+      "concession_students": 4,
+      "concession_amount": -18500,
+      "receipts": [
+        {
+          "name": "Aarav Mehta",
+          "reference": "WR-24011",
+          "date": "03-11-2025",
+          "mode": "Cash",
+          "what": "Wallet receipt",
+          "detail": "Against pending tuition",
+          "same_day": "Same-day school counter",
+          "amount": 5500
+        },
+        {
+          "name": "Sara Khan",
+          "reference": "WR-24018",
+          "date": "05-11-2025",
+          "mode": "NEFT",
+          "what": "Wallet receipt",
+          "detail": "Parent transfer ref DEMO9821",
+          "same_day": null,
+          "amount": 12000
+        },
+        {
+          "name": "Vihaan Patel",
+          "reference": "WR-24022",
+          "date": "07-11-2025",
+          "mode": "Cash",
+          "what": "Wallet receipt",
+          "detail": "Partial month fee",
+          "same_day": "Same-day school counter",
+          "amount": 3500
+        },
+        {
+          "name": "Ananya Iyer",
+          "reference": "WR-24029",
+          "date": "09-11-2025",
+          "mode": "Draft",
+          "what": "Wallet receipt",
+          "detail": "DD No. DEMO7781",
+          "same_day": null,
+          "amount": 8000
+        }
+      ]
+    }
+  }
+}
